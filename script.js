@@ -1,4 +1,4 @@
-console.log(Hello_World); 
+console.log("Hello World!");
 
 function appendResult(text) {
     const resultsDiv = document.getElementById('results');
@@ -7,4 +7,4 @@ function appendResult(text) {
     resultsDiv.appendChild(h2);
 }
 
-appendResult(Hello_World); 
+appendResult("Hello World!"); // Display "Hello World!" on the HTML page
